@@ -1,0 +1,108 @@
+body {
+    background: url("https://en.idei.club/uploads/posts/2023-08/1691244315_en-idei-club-p-aesthetic-anime-room-gif-dizain-instagram-29.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 2px;
+}
+
+.wrapper {
+    width: 1280px;
+    /* height: 838px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sub-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.name-container {
+    color: #FFF;
+    background-color: rgba(0,0,0,0.9);
+    border: #000;
+    border-radius: 20px;
+    padding: 20px;
+    animation: ease-in;
+    animation-duration: 1s;
+    text-align: center;
+    width: 800px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.name-container h1 {
+    animation: forwards;
+}
+
+.message {
+    text-align: justify;
+    line-height: 30px;
+}
+
+.red {
+    color: rgb(255, 96, 96);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.name-container div a {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 40px;
+    color: #FFF;
+    width: 50%;
+}
+
+.name-container div a:hover, .name-container div a.active {
+    background: #FFF;
+    color: #000;
+    animation: ease-in-out 1s;
+}
+
+hr {
+    width: 100%;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+
+@media (max-width: 800px) {
+    .name-container {
+        width: unset;
+        letter-spacing: .5px;
+    }
+
+    .buttons-container {
+        flex-direction: column;
+    }
+
+    .buttons-container a {
+        width: 100% !important;
+    }
+
+    .note {
+        text-align: center;
+    }
+}
